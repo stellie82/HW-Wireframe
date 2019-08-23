@@ -5,7 +5,6 @@
 }
 
 body {
-    position: relative;
     margin: 0 auto;
     width: 960px;
     color: #777;
@@ -14,15 +13,7 @@ body {
     font-size: 18px;
 }
 
-header {
-    margin: 10px;
-    height: 50px;
-    padding: 20px;
-    background-color: #ebebeb;
-    text-align: center;
-}
-
-nav {
+header, nav, footer {
     margin: 10px;
     height: 50px;
     padding: 20px;
@@ -38,7 +29,6 @@ section {
     padding: 20px;
     background-color: #ebebeb;
     text-align: center;
-    z-index: -1;
 }
 
 aside {
@@ -51,41 +41,22 @@ aside {
     text-align: center;
 }
 
-footer {
-    margin: 10px;
-    height: 50px;
-    padding: 20px;
-    background-color: #ebebeb;
-    text-align: center;
-}
-
 article {
-    position: absolute;
-    top: 300px;
-    left: 10px;
-    margin: 10px;
+    margin: 0;
     width: 475px;
-    height: 100px;
-    padding: 20px;
+    height: 175px;
+    padding: 10px;
     color: #ebebeb;
     background-color: #777;
     text-align: center;   
 }
 
-#hblock {
-    margin: 10px;
-    width: 350px;
-    padding: 20px;
-    color: #777;
-    background-color: #ebebeb;
-    text-align: center;
-}
-
-#pblock {
+.pblock {
     display: block;
     margin: 10px;
-    width: 350px;
-    padding: 20px;
+    width: 420px;
+    height: 15px;
+    padding: 18px;
     color: #777;
     background-color: #ebebeb;
     text-align: center;
